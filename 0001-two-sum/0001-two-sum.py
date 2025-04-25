@@ -1,12 +1,12 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         """
-        Time:
-        Space:
+        Time: O(n)
+        Space: O(n)
 
         Input: nums = [3,3], target = 6
-                       ^
-        seen = {3:0, }
+                         ^
+        seen = {3:0}
 
         """
         seen = {}
