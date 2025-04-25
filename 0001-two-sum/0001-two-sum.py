@@ -7,7 +7,6 @@ class Solution:
         Input: nums = [3,3], target = 6
                          ^
         seen = {3:0}
-
         """
         seen = {}
 
