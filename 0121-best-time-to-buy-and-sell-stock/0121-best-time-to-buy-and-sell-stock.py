@@ -3,12 +3,6 @@ class Solution:
         """
         Time: O(n)
         Space: O(1)
-
-        Input: prices = [7,1,5,3,6,4]
-                                   ^
-                                   
-        lowest_price = 1
-        max_profit = 5
         """
         lowest_price = prices[0]
         max_profit = 0
