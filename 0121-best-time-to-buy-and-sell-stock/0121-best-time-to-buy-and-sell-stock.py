@@ -1,0 +1,22 @@
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        """
+        Time: O(n)
+        Space: O(1)
+
+        Input: prices = [7,1,5,3,6,4]
+                                   ^
+                                   
+        lowest_price = 1
+        max_profit = 5
+        """
+        lowest_price = prices[0]
+        max_profit = 0
+
+        for day in range(1, len(prices)):
+            profit = prices[day] - lowest_price
+            if profit > 0:
+                max_profit = max(max_profit, profit)
+            lowest_price = min(lowest_price, prices[day])
+
+        return max_profit
