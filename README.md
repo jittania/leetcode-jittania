@@ -6,11 +6,13 @@ My Python solutions to LeetCode questions
 ## Array
 |  |
 | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/jittania/leetcode-jittania/tree/master/0643-maximum-average-subarray-i) |
 | [1019-squares-of-a-sorted-array](https://github.com/jittania/leetcode-jittania/tree/master/1019-squares-of-a-sorted-array) |
 | [2211-k-radius-subarray-averages](https://github.com/jittania/leetcode-jittania/tree/master/2211-k-radius-subarray-averages) |
 ## Sliding Window
 |  |
 | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/jittania/leetcode-jittania/tree/master/0643-maximum-average-subarray-i) |
 | [2211-k-radius-subarray-averages](https://github.com/jittania/leetcode-jittania/tree/master/2211-k-radius-subarray-averages) |
 ## Two Pointers
 |  |
