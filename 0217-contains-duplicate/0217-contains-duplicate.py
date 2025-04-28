@@ -3,10 +3,7 @@ class Solution:
         """
         Time: O(n)
         Space: O(n)
-
-        Input: nums = [1,2,3,1]
-
-
+        Note that by sorting the input first then checking for duplicate neighbors we could eliminate the need for a hash set and achieve O(1) space at cost of increasing time to O(n log n)
         """
         seen = set()
         for num in nums:
