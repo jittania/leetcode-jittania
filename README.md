@@ -7,6 +7,7 @@ My Python solutions to LeetCode questions
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/jittania/leetcode-jittania/tree/master/0001-two-sum) |
+| [0057-insert-interval](https://github.com/jittania/leetcode-jittania/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jittania/leetcode-jittania/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/jittania/leetcode-jittania/tree/master/0217-contains-duplicate) |
 | [0643-maximum-average-subarray-i](https://github.com/jittania/leetcode-jittania/tree/master/0643-maximum-average-subarray-i) |
