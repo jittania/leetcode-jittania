@@ -2,7 +2,7 @@ class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         """
         Time: O(n)
-        Space: O(n bvcxz fdfdeswaq  sa  sa  .,mjhngvfcdxsam nbvcxz iuytrewq 09i8u7y6t5r4321`.l,kmjnhbgvfcdsa≥,)
+        Space: O(n)
 
         Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]]
                                                         ^
