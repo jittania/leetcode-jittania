@@ -1,35 +1,28 @@
 class Solution:
-    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+    def insert(self, intervals: List[List[int]], new_interval: List[int]) -> List[List[int]]:
         """
         Time: O(n)
         Space: O(n)
-
-        Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]]
-                                                        ^
-            newInterval = [3,10]
-                            ^
-            ans = [[1, 2], [3,10], [12,16]]
         """
-        ans = []
-        
-        for i, curr_interval in enumerate(intervals):
-            # if the new interval goes BEFORE the current interval, add it to our ans first and then 
-            # add the remaining intervals (bc we know they're all already non-overlapping:
-            if (newInterval[1] < curr_interval[0]):
-                ans.append(newInterval)
-                return ans + intervals[i:]
+        mod_intervals = []
 
-            # else if the the new interval goes AFTER current interval, add the current interval 
-            # but hold off on adding new interval:
-            elif (newInterval[0] > curr_interval[1]):
-                ans.append(curr_interval)
-
-            # else, the new interval must be overlapping somehow with the current interval so 
-            # we need to merge them. but still don't add
+        for curr_i, curr_interval in enumerate(intervals):
+            # There are only 3 ways to handle new_interval depending on how it relates to curr_interval:
+            # 1. new_interval should come before the current interval
+                # insert new_interval before and append remaining intervals (we are done)
+            if new_interval[1] < curr_interval[0]:
+                mod_intervals.append(new_interval)
+                return mod_intervals + intervals[curr_i:]
+            # 2. new_interval should come after the current interval, but could overlap with the next interval
+                # append current interval only to our answer, leave new_interval alone
+            elif new_interval[0] > curr_interval[1]:
+                mod_intervals.append(curr_interval)
+            # 3. new_interval overlaps somehow with the current interval
+                # merge current interval into new_interval, but don't append to our answer
             else:
-                newInterval = [min(newInterval[0], curr_interval[0]), max(newInterval[1], curr_interval[1])]
-        
-        # append the new interval finally, which should be merged with any overlapping intervals by this point
-        ans.append(newInterval)
+                new_interval = [min(curr_interval[0], new_interval[0]), max(curr_interval[1], new_interval[1])]
 
-        return ans
+        # since we're at the end of intervals and haven't added new_interval yet, add it now
+        mod_intervals.append(new_interval)
+
+        return mod_intervals
