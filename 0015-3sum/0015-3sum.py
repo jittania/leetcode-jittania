@@ -36,7 +36,8 @@ class Solution:
                     # updating pointers in this else case is kind of wild,
                     # but we must do it:
                     left += 1
-                    # this skips over any duplicates of nums[left]:
+                    # this skips over any duplicates of nums[left], because we
+                    # only need to update one of the pointers:
                     while (nums[left] == nums[left - 1]) and left < right:
                         left += 1
 
