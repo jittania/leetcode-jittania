@@ -33,6 +33,7 @@ My Python solutions to LeetCode questions
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/jittania/leetcode-jittania/tree/master/0125-valid-palindrome) |
+| [0242-valid-anagram](https://github.com/jittania/leetcode-jittania/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/jittania/leetcode-jittania/tree/master/0344-reverse-string) |
 ## Sorting
 |  |
@@ -40,6 +41,7 @@ My Python solutions to LeetCode questions
 | [0015-3sum](https://github.com/jittania/leetcode-jittania/tree/master/0015-3sum) |
 | [0169-majority-element](https://github.com/jittania/leetcode-jittania/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/jittania/leetcode-jittania/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/jittania/leetcode-jittania/tree/master/0242-valid-anagram) |
 | [1019-squares-of-a-sorted-array](https://github.com/jittania/leetcode-jittania/tree/master/1019-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
@@ -47,6 +49,7 @@ My Python solutions to LeetCode questions
 | [0001-two-sum](https://github.com/jittania/leetcode-jittania/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/jittania/leetcode-jittania/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/jittania/leetcode-jittania/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/jittania/leetcode-jittania/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
 | ------- |
