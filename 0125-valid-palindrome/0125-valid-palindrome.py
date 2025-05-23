@@ -4,20 +4,25 @@ class Solution:
         Time: O(n)
         Space: O(1)
 
-        """
-        left, right = 0, len(s) - 1
+        Input: s = "A man, a plan, a canal: Panama"
+                              ^
+                                         ^
 
-        while left < right:
-            while left < right and not s[left].isalnum():
-                left += 1
-                
-            while left < right and not s[right].isalnum():
-                right -= 1
-                
-            if s[left].lower() != s[right].lower():
+        """
+        l, r = 0, len(s) - 1
+
+        while l < r:
+            # skip chars on left until an alphanum char is found
+            while l < r and not s[l].isalnum():
+                l += 1
+            # skip chars on right until an alphanum char is found
+            while l < r and not s[r].isalnum():
+                r -= 1
+            # if lowercase versions of letters are NOT equal, don't need to check further: can't be a palindrome
+            if s[l].lower() != s[r].lower():
                 return False
-            left += 1
-            right -= 1
+            # if lowercase versions of letters are equal, move both pointers inward
+            l += 1
+            r -= 1
 
         return True
-        
