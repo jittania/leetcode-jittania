@@ -1,15 +1,8 @@
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         """
-        Time:
-        Space:
-
-        Input: s = "abccccdd"
-                           ^
-        
-        singles = (a, b)
-        max_palindrome_length = 7
-
+        Time: O(n)
+        Space: O(n)
         """
         singles = set()
         max_palindrome_length = 0
@@ -18,7 +11,7 @@ class Solution:
             # if it's already in singles, we have a pair - can remove it and update counter
             if char in singles:
                 max_palindrome_length += 2
-                singles.discard(char)
+                singles.discard(char) # apparently using discard doesn't raise a KeyError - doesn't matter here but still kind of a fun fact
 
             # else it's unpaired - add it to singles, but don't update counter
             else:
