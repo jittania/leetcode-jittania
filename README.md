@@ -37,6 +37,7 @@ My Python solutions to LeetCode questions
 | [0125-valid-palindrome](https://github.com/jittania/leetcode-jittania/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/jittania/leetcode-jittania/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/jittania/leetcode-jittania/tree/master/0344-reverse-string) |
+| [0409-longest-palindrome](https://github.com/jittania/leetcode-jittania/tree/master/0409-longest-palindrome) |
 ## Sorting
 |  |
 | ------- |
@@ -53,6 +54,7 @@ My Python solutions to LeetCode questions
 | [0169-majority-element](https://github.com/jittania/leetcode-jittania/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/jittania/leetcode-jittania/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/jittania/leetcode-jittania/tree/master/0242-valid-anagram) |
+| [0409-longest-palindrome](https://github.com/jittania/leetcode-jittania/tree/master/0409-longest-palindrome) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -69,4 +71,8 @@ My Python solutions to LeetCode questions
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jittania/leetcode-jittania/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+## Greedy
+|  |
+| ------- |
+| [0409-longest-palindrome](https://github.com/jittania/leetcode-jittania/tree/master/0409-longest-palindrome) |
 <!---LeetCode Topics End-->
